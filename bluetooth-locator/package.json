@@ -1,0 +1,30 @@
+{
+  "name": "bluetooth-locator",
+  "version": "1.0.0",
+  "description": "Localisateur Bluetooth (BLE) en TypeScript pour macOS — scanne les appareils alentour et te guide vers l'un d'eux via la puissance du signal (RSSI).",
+  "license": "MIT",
+  "author": "Axel Priam",
+  "main": "dist/index.js",
+  "bin": {
+    "ble-locator": "dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "scan": "node dist/index.js scan",
+    "dev": "tsx src/index.ts",
+    "dev:scan": "tsx src/index.ts scan",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stoprocent/noble": "^1.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
