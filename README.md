@@ -1,7 +1,7 @@
 # Axel Priam — Développeur Web Fullstack
 
 Développeur fullstack en reconversion, 
-Je cherche une **alternance fullstack pour septembre 2026** (3 semaines entreprise / 1 jour présentiel).
+Je cherche une **alternance fullstack pour septembre 2026**
 
 Avant le code, 15 ans en relation client — dont Apple Store — m'ont appris à penser **utilisateur avant de penser fonctionnalité**.
 
